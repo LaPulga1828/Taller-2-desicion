@@ -19,11 +19,11 @@ if M<=50:
 
 else:
     if M==50 or M<=200:
-        Cf=(M*2000)+C
+        Cf=((M-50)*2000)+C
         print("Su cuota final es: " + str(Cf))
     
     else:
-        Cf=(M*3000)+C
+        Cf=((M-50)*3000)+C
         print("Su cuota final es: " + str(Cf))
     
       
